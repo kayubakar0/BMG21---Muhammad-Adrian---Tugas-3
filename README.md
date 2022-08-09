@@ -17,7 +17,8 @@ Bug
 2. Saat jatuh player kadang bisa kena damage kadang tidak
 3. Waktu saat jatuh terus respawn berubah ubah
 
-Hasil game
+# Hasil game
+
 ![tugas3-medium](https://user-images.githubusercontent.com/57085987/183692584-8fc85dd3-5848-4e08-b477-52fd6dda2eb8.gif)
 
 
