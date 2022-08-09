@@ -21,4 +21,5 @@ Hasil game
 
 ![Tugas3](https://user-images.githubusercontent.com/57085987/183672785-7194d67a-e445-4892-b4a5-070755fd5da7.gif)
 
- 
+Jika gif tidak bisa diakses gunakan link:
+https://drive.google.com/file/d/1fuHubOSbVxuPKGZYjB49EuK-RQb6pNTd/view?usp=sharing
