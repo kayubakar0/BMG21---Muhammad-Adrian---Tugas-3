@@ -1,0 +1,117 @@
+{
+  "data": {
+    "breakBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "dropSelf": {
+      "canDropSelf": false
+    },
+    "name": {
+      "value": "block_glowstone"
+    },
+    "placeBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Texture/Block/glowstone.png"
+      },
+      "down": {
+        "asset": "asset/Texture/Block/glowstone.png"
+      },
+      "front": {
+        "asset": "asset/Texture/Block/glowstone.png"
+      },
+      "left": {
+        "asset": "asset/Texture/Block/glowstone.png"
+      },
+      "right": {
+        "asset": "asset/Texture/Block/glowstone.png"
+      },
+      "up": {
+        "asset": "asset/Texture/Block/glowstone.png"
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_GameOverToPlayer",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "b6615915-d6b7-4953-99f1-985594e3ddf8"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "d280f13f-fe32-4de0-9706-9f7fe8d4137d"
+              },
+              "pos": {
+                "x": 805,
+                "y": 290
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "b6615915-d6b7-4953-99f1-985594e3ddf8"
+              },
+              "pos": {
+                "x": 1215,
+                "y": 299
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "86717dca-638f-4090-aa64-439e72017f88"
+            },
+            "type": "Trigger_BlockTouch"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "d280f13f-fe32-4de0-9706-9f7fe8d4137d"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "7015142e-e5a3-4a7a-9ae9-735804f85adf"
+            }
+          },
+          "type": "Trigger_BlockTouch"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "7a57674c99269fd5139eb736286023c2",
+      "triggers.bts": "ab1fc4a95c55d0e3d02aa6536c6fca8f"
+    },
+    "VERSION": "0.22"
+  }
+}

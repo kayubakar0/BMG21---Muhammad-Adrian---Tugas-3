@@ -1,0 +1,8 @@
+BLOCK_ON {
+	KillEntity(entity = $obj1)
+	ReviveEntity(entity = $obj1, map = $map, pos = { x = -2, y = 8, z = -2 })
+}
+
+BLOCK_TOUCH {
+	GameOver()
+}

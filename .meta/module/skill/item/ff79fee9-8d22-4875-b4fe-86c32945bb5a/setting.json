@@ -1,0 +1,19 @@
+{
+  "data": {
+    "name": {
+      "value": "skill_ff79fee9-8d22-4875-b4fe-86c32945bb5a"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "bcac06dd0ca276129bb0b11557b08e26",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

@@ -1,0 +1,4 @@
+BLOCK_ON {
+	Damage(damage = 10, entity = $obj1)
+	ReviveEntity(entity = $obj1, pos = { x = -2, y = 8, z = -2 })
+}

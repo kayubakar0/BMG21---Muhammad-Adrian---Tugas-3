@@ -1,0 +1,147 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": ""
+      },
+      "girlactor": {
+        "asset": ""
+      }
+    },
+    "AI_home": {
+      "homeSize": 5
+    },
+    "boundingVolume": {
+      "height": 1.7,
+      "radius": 0.43,
+      "type": "Capsule"
+    },
+    "boundingVolumeEntityCfg": {
+      "height": 1.7,
+      "radius": 0.43,
+      "type": "Capsule"
+    },
+    "collision": true,
+    "damage": 10,
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "equip": [
+      "1"
+    ],
+    "hideHp": false,
+    "isPlayer": true,
+    "jumpSpeed": 15,
+    "maxHp": 100,
+    "name": {
+      "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
+    },
+    "reviveTime": {
+      "value": 20
+    },
+    "skill": [
+      "myplugin/dfdb1cc0-e413-44fe-ab90-083e8bf7a887",
+      "myplugin/ff79fee9-8d22-4875-b4fe-86c32945bb5a"
+    ],
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_GameOver",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params"
+                }
+              ],
+              "id": {
+                "value": "b66eb0ae-1520-4849-8fb5-dfee7d76edf7"
+              },
+              "pos": {
+                "x": 847,
+                "y": 368
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "0465898d-c36f-408f-a8e2-6a075f6c7d2d"
+            },
+            "type": "Trigger_GameOver_Entity"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "b66eb0ae-1520-4849-8fb5-dfee7d76edf7"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "3038ece5-d28c-40a3-bd9e-7ae80f71a2ed"
+            },
+            "pos": {
+              "x": 404,
+              "y": 315
+            }
+          },
+          "type": "Trigger_GameOver_Entity"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_GameOver",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params"
+                }
+              ],
+              "id": {
+                "value": "09e8dec2-7e94-48d9-b85d-115ef7a10c53"
+              },
+              "pos": {
+                "x": 695,
+                "y": 351
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "67afa162-e278-4c99-9523-5047714fde9f"
+            },
+            "type": "Trigger_EntityDie"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "09e8dec2-7e94-48d9-b85d-115ef7a10c53"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "f3991820-d943-4cfa-84eb-1c7607769874"
+            }
+          },
+          "type": "Trigger_EntityDie"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "52394fc8c0dd80a11ebbdcd9a682c3f4",
+      "triggers.bts": "ab6b968a64285f12e310971c8e032772"
+    },
+    "VERSION": "0.22"
+  }
+}

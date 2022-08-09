@@ -1,0 +1,14 @@
+BLOCK_IN {
+	Damage(damage = 10, entity = $obj1)
+	ReviveEntity(entity = $obj1, map = $map, pos = { x = -2, y = 8, z = -2 })
+}
+
+BLOCK_ON {
+	Damage(damage = 10, entity = $obj1)
+	ReviveEntity(entity = $obj1, map = $map, pos = { x = -2, y = 8, z = -2 })
+}
+
+BLOCK_TOUCH {
+	Damage(damage = 10, entity = $obj1)
+	ReviveEntity(entity = $obj1, map = $map, pos = { x = -2, y = 8, z = -2 })
+}

@@ -1,0 +1,38 @@
+{
+  "data": {
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "chaseDistance": 5,
+      "enable": true,
+      "skillList": [
+        {
+          "attackDis": 2,
+          "fullName": "myplugin/dfdb1cc0-e413-44fe-ab90-083e8bf7a887"
+        }
+      ]
+    },
+    "AI_walkRules": {
+      "faceCliff": {
+        "height": 2
+      }
+    },
+    "damage": 10,
+    "enableAI": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "headPic": {
+      "asset": "asset/Actor/charactor/charactor_girl/tga/02_suit_girl.tga"
+    },
+    "name": {
+      "value": "entity_2e9a719c-06b5-4697-b5e7-571193945e88"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "97f9360c452f515f208c365da010e206",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

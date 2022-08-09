@@ -1,0 +1,64 @@
+{
+  "data": {
+    "canJoinMidway": false,
+    "fixed_viewPos": {
+      "pos": {
+        "__OBJ_TYPE": "Vector3i"
+      }
+    },
+    "initPos": {
+      "map": "map001",
+      "pos": {
+        "x": -2,
+        "y": 8,
+        "z": -2
+      }
+    },
+    "nowTime": {
+      "h": 7,
+      "m": 40
+    },
+    "player_range": {
+      "max": 1,
+      "min": 1
+    },
+    "startPos": {
+      "map": "map001",
+      "pos": {
+        "x": -2,
+        "y": 8,
+        "z": -2
+      }
+    },
+    "unlimitedPlayTime": true,
+    "vars": {
+      "global": [
+        {
+          "key": "Kotakgerak",
+          "type": "vector3",
+          "value": {
+            "__OBJ_TYPE": "T_Vector3"
+          }
+        }
+      ]
+    },
+    "waitGoTime": {
+      "value": 100
+    },
+    "waitPlayerTime": {
+      "value": 100
+    },
+    "waitStartTime": {
+      "value": 100
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "755e46f483c66c3340d9ff716eed0646",
+      "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
+      "triggers.bts": "",
+      "triggers_client.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}
