@@ -237,7 +237,8 @@
                     },
                     {
                       "value": {
-                        "__OBJ_TYPE": "T_Entity"
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "09165d26-ff77-4cad-a599-997a1b84cc3e"
                       }
                     }
                   ]
@@ -263,8 +264,8 @@
                 "value": "8caaf549-6ce5-4540-a5ef-0c0535116c0e"
               },
               "pos": {
-                "x": 1223,
-                "y": 171
+                "x": 1145,
+                "y": 74
               },
               "type": "T_Entity"
             },
@@ -301,6 +302,23 @@
                 "y": 594
               },
               "type": "T_MapObj"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "09165d26-ff77-4cad-a599-997a1b84cc3e"
+              },
+              "pos": {
+                "x": 1120,
+                "y": 260
+              },
+              "type": "T_Entity"
             }
           ],
           "custom_trigger_data": {
@@ -490,7 +508,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "ebad86df217f54b02ecf32cd7784558d",
-      "triggers.bts": "9fef196fa1e8b2d79b1eb1482b64bf81"
+      "triggers.bts": "35261aeac876cc357049480da9d0c72a"
     },
     "VERSION": "0.22"
   }

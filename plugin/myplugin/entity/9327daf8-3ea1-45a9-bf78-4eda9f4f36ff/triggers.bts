@@ -1,0 +1,5 @@
+ENTITY_CLICK {
+	ReviveEntity(entity = $obj2, map = $map, pos = { x = -2, y = 8, z = -2 })
+	AddEntityHp(entity = $obj2, step = 100)
+	ShowSystemChat(entity = $obj2, key = "9922bd9e-fcec-4c94-ba70-6a0dedc122d3")
+}

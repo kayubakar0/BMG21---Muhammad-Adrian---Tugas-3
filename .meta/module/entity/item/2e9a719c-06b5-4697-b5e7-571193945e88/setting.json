@@ -1,5 +1,8 @@
 {
   "data": {
+    "actorName": {
+      "asset": "asset/Actor/White And Purple Mechanical Saw Monster/g2047_monster_normal_3104.actor"
+    },
     "AI_attack": {
       "attackMode": "autoAttack",
       "chaseDistance": 5,
@@ -24,13 +27,14 @@
     "headPic": {
       "asset": "asset/Actor/charactor/charactor_girl/tga/02_suit_girl.tga"
     },
+    "maxHp": 100,
     "name": {
       "value": "entity_2e9a719c-06b5-4697-b5e7-571193945e88"
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "97f9360c452f515f208c365da010e206",
+      "setting.json": "9eef392650981b7e70b4f4b9943ffadf",
       "triggers.bts": ""
     },
     "VERSION": "0.22"

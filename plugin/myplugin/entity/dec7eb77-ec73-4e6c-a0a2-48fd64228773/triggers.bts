@@ -1,0 +1,9 @@
+ENTITY_ENTER {
+	StartTimer2(interval = 20, time = 1, timer = "") {
+		ReviveEntity(entity = $obj1, map = $map, pos = { x = -1, y = 8, z = -13 })
+	}
+}
+
+ENTITY_REBIRTH {
+	StartTimer2(interval = 20, time = 1, timer = "")
+}
