@@ -24,4 +24,4 @@ Bug
 
 
 Jika gif tidak bisa diakses gunakan link:
-https://drive.google.com/file/d/1t7Hs0lieWE21_YKKonS2Hg-G6BcaUiWU/view?usp=sharing
+https://drive.google.com/file/d/12wFWD9HoRNyWVf7G3-bXQluxb0F8eqZ8/view?usp=sharing
